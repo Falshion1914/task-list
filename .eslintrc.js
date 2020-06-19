@@ -10,6 +10,16 @@ module.exports = {
     },
     "plugins": ["prettier"],
     "rules": {
-        "prettier/prettier" : "error"
+        "prettier/prettier" : "error",
+        "eqeqeq" : "off",
+        "no-plusplus" : "off",
+        "camelcase" : "off",
+        "no-undef" : "off",
+        "prefer-rest-params" : "off",
+        "func-names" : "off",
+        "func-names" : "off",
+        "prefer-destructuring" : "off",
+        "no-use-before-define" : "off",
+        "no-shadow" : "off",
     }
 };

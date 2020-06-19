@@ -1,14 +1,15 @@
 {
-  "name": "task-list",
+  "name": "tic-tac-toe",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "npm run build && npm run start",
     "build": "webpack",
     "start": "webpack-dev-server --open",
-    "pretty": "prettier --check \"./*.js\"",
-    "lint": "eslint ./index.js"
+    "pretty": "prettier --check \"src/**/*.js\"",
+    "lint": "eslint ./src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +24,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.0",
+    "html-webpack-plugin": "^4.3.0",
     "prettier": "2.0.5",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
